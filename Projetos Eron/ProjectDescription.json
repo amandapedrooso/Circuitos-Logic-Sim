@@ -3,7 +3,7 @@
   "DLSVersion_LastSaved": "2.1.6",
   "DLSVersion_EarliestCompatible": "2.0.0",
   "CreationTime": "2025-09-03T21:07:20.578-03:00",
-  "LastSaveTime": "2025-10-28T23:31:11.231-03:00",
+  "LastSaveTime": "2025-10-28T23:34:16.334-03:00",
   "Prefs_MainPinNamesDisplayMode": 0,
   "Prefs_ChipPinNamesDisplayMode": 0,
   "Prefs_GridDisplayMode": 0,
@@ -39,6 +39,10 @@
     {
       "Name":"ComplexCircuits",
       "IsCollection":true
+    },
+    {
+      "Name":"4-BitAdder",
+      "IsCollection":false
     }
   ],
   "ChipCollections":[
@@ -74,7 +78,7 @@
     },
     {
       "Chips":["BUZZER","4-BitAdder"],
-      "IsToggledOpen":false,
+      "IsToggledOpen":true,
       "Name":"OTHER"
     },
     {
