@@ -1,9 +1,9 @@
 {
-  "ProjectName": "Projetos Eron",
+  "ProjectName": "Circuitos-Logic-Sim",
   "DLSVersion_LastSaved": "2.1.6",
   "DLSVersion_EarliestCompatible": "2.0.0",
   "CreationTime": "2025-09-03T21:07:20.578-03:00",
-  "LastSaveTime": "2025-10-28T23:34:16.334-03:00",
+  "LastSaveTime": "2025-11-05T19:40:38.989-03:00",
   "Prefs_MainPinNamesDisplayMode": 0,
   "Prefs_ChipPinNamesDisplayMode": 0,
   "Prefs_GridDisplayMode": 0,
@@ -21,11 +21,16 @@
     "Xnor",
     "half-Adder",
     "Full-Adder",
-    "4-BitAdder"
+    "4-BitAdder",
+    "Half-Subtractor"
   ],
   "StarredList":[
     {
       "Name":"IN/OUT",
+      "IsCollection":true
+    },
+    {
+      "Name":"BasicGates",
       "IsCollection":true
     },
     {
@@ -43,6 +48,10 @@
     {
       "Name":"4-BitAdder",
       "IsCollection":false
+    },
+    {
+      "Name":"Half-Subtractor",
+      "IsCollection":false
     }
   ],
   "ChipCollections":[
@@ -58,7 +67,7 @@
     },
     {
       "Chips":["1-4BIT","1-8BIT","4-8BIT","4-1BIT","8-4BIT","8-1BIT"],
-      "IsToggledOpen":true,
+      "IsToggledOpen":false,
       "Name":"MERGE/SPLIT"
     },
     {
@@ -78,7 +87,7 @@
     },
     {
       "Chips":["BUZZER","4-BitAdder"],
-      "IsToggledOpen":true,
+      "IsToggledOpen":false,
       "Name":"OTHER"
     },
     {
