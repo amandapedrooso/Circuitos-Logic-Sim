@@ -15,7 +15,7 @@
   },
   "InputPins":[
     {
-      "Name":"IN",
+      "Name":"A",
       "ID":663793424,
       "Position":{
         "x":-5.3325,
@@ -26,7 +26,7 @@
       "ValueDisplayMode":0
     },
     {
-      "Name":"IN",
+      "Name":"B",
       "ID":614829701,
       "Position":{
         "x":-5.3325,
@@ -39,7 +39,7 @@
   ],
   "OutputPins":[
     {
-      "Name":"OUT",
+      "Name":"Diff",
       "ID":1518256739,
       "Position":{
         "x":3.2925,
@@ -50,7 +50,7 @@
       "ValueDisplayMode":0
     },
     {
-      "Name":"OUT",
+      "Name":"Bo",
       "ID":1122536086,
       "Position":{
         "x":3.2925,
