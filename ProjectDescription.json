@@ -3,7 +3,7 @@
   "DLSVersion_LastSaved": "2.1.6",
   "DLSVersion_EarliestCompatible": "2.0.0",
   "CreationTime": "2025-09-03T21:07:20.578-03:00",
-  "LastSaveTime": "2025-11-11T20:21:14.211-03:00",
+  "LastSaveTime": "2025-11-18T21:27:29.835-03:00",
   "Prefs_MainPinNamesDisplayMode": 0,
   "Prefs_ChipPinNamesDisplayMode": 0,
   "Prefs_GridDisplayMode": 0,
@@ -25,7 +25,9 @@
     "Half-Subtractor",
     "3XOR",
     "3AND",
-    "Full-Subtractor"
+    "Full-Subtractor",
+    "3OR",
+    "Multiplexador 4-1"
   ],
   "StarredList":[
     {
@@ -47,6 +49,10 @@
     {
       "Name":"ComplexCircuits",
       "IsCollection":true
+    },
+    {
+      "Name":"Multiplexador 4-1",
+      "IsCollection":false
     }
   ],
   "ChipCollections":[
@@ -81,19 +87,19 @@
       "Name":"MEMORY"
     },
     {
-      "Chips":["BUZZER"],
+      "Chips":["BUZZER","Multiplexador 4-1"],
       "IsToggledOpen":true,
       "Name":"OTHER"
     },
     {
-      "Chips":["Not","And","NAND","Or","Nor","Xor","Xnor","3AND","3XOR"],
+      "Chips":["half-Adder","Full-Adder","4-BitAdder","Half-Subtractor","Full-Subtractor"],
       "IsToggledOpen":false,
-      "Name":"BasicGates"
+      "Name":"ComplexCircuits"
     },
     {
-      "Chips":["half-Adder","Full-Adder","4-BitAdder","Half-Subtractor","Full-Subtractor"],
-      "IsToggledOpen":true,
-      "Name":"ComplexCircuits"
+      "Chips":["Not","And","NAND","Or","Nor","Xor","Xnor","3AND","3OR","3XOR"],
+      "IsToggledOpen":false,
+      "Name":"BasicGates"
     }
   ]
 }
