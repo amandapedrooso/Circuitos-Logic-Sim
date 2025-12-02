@@ -3,9 +3,9 @@
   "DLSVersion_LastSaved": "2.1.6",
   "DLSVersion_EarliestCompatible": "2.0.0",
   "CreationTime": "2025-09-03T21:07:20.578-03:00",
-  "LastSaveTime": "2025-11-18T21:27:29.835-03:00",
+  "LastSaveTime": "2025-11-28T21:31:17.271-03:00",
   "Prefs_MainPinNamesDisplayMode": 0,
-  "Prefs_ChipPinNamesDisplayMode": 0,
+  "Prefs_ChipPinNamesDisplayMode": 1,
   "Prefs_GridDisplayMode": 0,
   "Prefs_Snapping": 0,
   "Prefs_StraightWires": 0,
@@ -27,7 +27,25 @@
     "3AND",
     "Full-Subtractor",
     "3OR",
-    "Multiplexador 4-1"
+    "Multiplexador 4-1",
+    "DEMUX-2BIT",
+    "MUX-2BIT",
+    "AND-4BIT",
+    "4-OR",
+    "4BIT-OR",
+    "MUX-2CBIT-4DBIT",
+    "DEMUX-2CBIT-4DBIT",
+    "4AND",
+    "DEMUX-3CBIT-8DBIT",
+    "4-BIT-AND",
+    "4BIT-SubtractorAdder",
+    "4-BIT-XNOR",
+    "4-BIT-OR",
+    "DECODER-3CBIT",
+    "MUX-3CBIT-4DBIT",
+    "MUX-3CBIT-2BIT",
+    "ALU",
+    "DMUX-3CBIT-4BIT"
   ],
   "StarredList":[
     {
@@ -52,6 +70,74 @@
     },
     {
       "Name":"Multiplexador 4-1",
+      "IsCollection":false
+    },
+    {
+      "Name":"DEMUX-2BIT",
+      "IsCollection":false
+    },
+    {
+      "Name":"MUX-2BIT",
+      "IsCollection":false
+    },
+    {
+      "Name":"AND-4BIT",
+      "IsCollection":false
+    },
+    {
+      "Name":"4-OR",
+      "IsCollection":false
+    },
+    {
+      "Name":"4BIT-OR",
+      "IsCollection":false
+    },
+    {
+      "Name":"MUX-2CBIT-4DBIT",
+      "IsCollection":false
+    },
+    {
+      "Name":"DEMUX-2CBIT-4DBIT",
+      "IsCollection":false
+    },
+    {
+      "Name":"4AND",
+      "IsCollection":false
+    },
+    {
+      "Name":"4-BIT-AND",
+      "IsCollection":false
+    },
+    {
+      "Name":"4BIT-SubtractorAdder",
+      "IsCollection":false
+    },
+    {
+      "Name":"4-BIT-XNOR",
+      "IsCollection":false
+    },
+    {
+      "Name":"4-BIT-OR",
+      "IsCollection":false
+    },
+    {
+      "Name":"DECODER-3CBIT",
+      "IsCollection":false
+    },
+    {
+      "Name":"MUX-3CBIT-4DBIT",
+      "IsCollection":false
+    },
+    {
+      "Name":"MUX-3CBIT-2BIT",
+      "IsCollection":false
+    },
+    {
+      "Name":"ALU",
+      "IsCollection":false
+    },
+    {
+      "Name":"DMUX-3CBIT-4BIT",
       "IsCollection":false
     }
   ],
@@ -87,7 +173,7 @@
       "Name":"MEMORY"
     },
     {
-      "Chips":["BUZZER","Multiplexador 4-1"],
+      "Chips":["BUZZER","Multiplexador 4-1","DEMUX-2BIT","MUX-2BIT","AND-4BIT","4-OR","4BIT-OR","MUX-2CBIT-4DBIT","DEMUX-2CBIT-4DBIT","4AND","DEMUX-3CBIT-8DBIT","4-BIT-AND","4BIT-SubtractorAdder","4-BIT-XNOR","4-BIT-OR","DECODER-3CBIT","MUX-3CBIT-4DBIT","MUX-3CBIT-2BIT"],
       "IsToggledOpen":true,
       "Name":"OTHER"
     },
